@@ -6,13 +6,13 @@ import numpy
 def find_average(numbers):
     return numpy.average(numbers)
 
-or
 
+#or
 
 def find_average(array):
     return sum(array) / len(array) if array else 0
 
 
-or
+#or
 
 from statistics import mean as find_average
